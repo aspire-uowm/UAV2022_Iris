@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 2.9)
-project( LiveImage )
-find_package( OpenCV REQUIRED )
-include_directories( ${OpenCV_INCLUDE_DIRS} )
-add_executable( LiveImage LiveImage.cpp )
-target_link_libraries( LiveImage ${OpenCV_LIBS} )
