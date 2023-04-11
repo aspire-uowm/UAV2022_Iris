@@ -20,7 +20,7 @@ void gpsSetup(){
   GPS.println(PMTK_Q_RELEASE);
 }
 
-float* getGPSValues(){
+float* getGPS(){
   // read data from the GPS in the 'main loop'
   char c = GPS.read();
   // if you want to debug, this is a good time to do it!

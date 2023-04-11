@@ -8,4 +8,4 @@ Adafruit_GPS GPS(&Serial1);
 #define GPSECHO false
 
 void setGPS();
-float* getGPSValues();
+float* getGPS();

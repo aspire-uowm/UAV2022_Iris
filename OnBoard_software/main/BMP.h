@@ -5,3 +5,4 @@
 Adafruit_BMP3XX bmp = Adafruit_BMP3XX();
 
 void setBMP();
+float* getBMP();
