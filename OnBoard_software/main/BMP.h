@@ -4,5 +4,15 @@
 
 Adafruit_BMP3XX bmp = Adafruit_BMP3XX();
 
-void setBMP();
-float* getBMP();
+void setBMP(){
+  while (!bmp.begin_I2C()) 
+    Serial.println("Could not find a valid BMP3 sensor")
+  ;  
+
+
+  // Set up oversampling and filter initialization
+  bmp.setTemperatureOversampling(BMP3_OVERSAMPLING_8X);
+  bmp.setPressureOversampling(BMP3_OVERSAMPLING_4X);
+  bmp.setIIRFilterCoeff(BMP3_IIR_FILTER_COEFF_3);
+  bmp.setOutputDataRate(BMP3_ODR_50_HZ);
+}
