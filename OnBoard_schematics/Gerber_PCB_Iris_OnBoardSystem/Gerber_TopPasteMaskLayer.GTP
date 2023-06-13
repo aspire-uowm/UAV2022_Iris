@@ -1,4 +1,4 @@
-G04 Layer: BoardOutlineLayer*
+G04 Layer: TopPasteMaskLayer*
 G04 EasyEDA v6.5.23, 2023-06-13 15:00:51*
 G04 dacc78a0dacf4a2ba8dfb7ea8c58147c,5f8968b253fc4aed9fc2cb8881c97923,10*
 G04 Gerber Generator version 0.2*
@@ -8,14 +8,14 @@ G04 leading zeros omitted , absolute positions ,3 integer and 6 decimal *
 %FSLAX36Y36*%
 %MOIN*%
 
-%ADD10C,0.0100*%
-D10*
-X0Y2098420D02*
-G01*
-X3996054Y2098420D01*
-X3996054Y0D01*
-X0Y0D01*
-X0Y2098420D01*
+%ADD10R,0.0906X0.1575*%
+%ADD11R,0.0906X0.1732*%
 
 %LPD*%
+D10*
+G01*
+X3490000Y1039960D03*
+D11*
+G01*
+X3490000Y410039D03*
 M02*
