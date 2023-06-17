@@ -1,0 +1,2166 @@
+(PCB ''
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0 -236.5 0 0 413.38 0 413.38 -236.5 0 -236.5 )
+    )
+    (via via0 via1
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 0.605))
+    (rule(clear 0.605 (type default_smd)))
+    (rule(clear 0.605 (type smd_smd)))
+    (rule(width 1.005))
+    (layer 1
+      (type signal)
+    )
+    (layer 2
+      (type signal)
+    )
+
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+
+  )
+  (library
+    (image u1
+      (pin p92602 92602 224.5 -58)
+      (pin p92617 92617 214.5 -58)
+      (pin p92617 92632 204.5 -58)
+      (pin p92692 92692 275 -91.5)
+      (pin p92617 92707 275 -81.5)
+      (pin p92617 92722 275 -71.5)
+      (pin p92617 92782 155 -71.5)
+      (pin p92617 92797 155 -81.5)
+      (pin p92812 92812 155 -91.5)
+      (pin p92617 92872 165 -71.5)
+      (pin p92617 92887 165 -81.5)
+      (pin p92812 92902 165 -91.5)
+      (pin p92617 92962 175 -71.5)
+      (pin p92617 92977 175 -81.5)
+      (pin p92812 92992 175 -91.5)
+      (pin p92617 93052 185 -71.5)
+      (pin p92617 93067 185 -81.5)
+      (pin p92812 93082 185 -91.5)
+      (pin p92617 93142 195 -71.5)
+      (pin p92617 93157 195 -81.5)
+      (pin p92812 93172 195 -91.5)
+      (pin p92617 93232 205 -71.5)
+      (pin p92617 93247 205 -81.5)
+      (pin p92812 93262 205 -91.5)
+      (pin p92617 93322 215 -71.5)
+      (pin p92617 93337 215 -81.5)
+      (pin p92812 93352 215 -91.5)
+      (pin p92617 93412 225 -71.5)
+      (pin p92617 93427 225 -81.5)
+      (pin p92812 93442 225 -91.5)
+      (pin p92617 93502 235 -71.5)
+      (pin p92617 93517 235 -81.5)
+      (pin p92812 93532 235 -91.5)
+      (pin p92617 93592 245 -71.5)
+      (pin p92617 93607 245 -81.5)
+      (pin p92812 93622 245 -91.5)
+      (pin p92602 93661 154.205 -40.5)
+      (pin p92617 93676 179.795 -40.5)
+      (pin p92617 95623 295 -111.5)
+      (pin p92617 95638 295 -101.5)
+      (pin p95704 95704 116 -23)
+      (pin p95719 95719 106 -23)
+      (pin p95704 95734 96 -23)
+      (pin p95704 95749 86 -23)
+      (pin p95704 95764 76 -23)
+      (pin p95704 95818 241 -23)
+      (pin p95704 95833 251 -23)
+      (pin p95704 95887 371 -23)
+      (pin p95704 95902 381 -23)
+      (pin p95956 95956 381 -193)
+      (pin p95956 95971 371 -193)
+      (pin p95704 96034 271 -23)
+      (pin p95704 96049 281 -23)
+      (pin p95704 96064 291 -23)
+      (pin p95704 96079 301 -23)
+      (pin p95704 96187 381 -143)
+      (pin p95704 96202 371 -143)
+      (pin p95704 96217 381 -133)
+      (pin p95704 96232 371 -133)
+      (pin p95704 96247 381 -123)
+      (pin p95704 96262 371 -123)
+      (pin p95704 96277 381 -113)
+      (pin p95704 96292 371 -113)
+      (pin p95704 96307 381 -103)
+      (pin p95704 96322 371 -103)
+      (pin p95704 96337 381 -93)
+      (pin p95704 96352 371 -93)
+      (pin p95704 96367 381 -83)
+      (pin p95704 96382 371 -83)
+      (pin p95704 96397 381 -73)
+      (pin p95704 96412 371 -73)
+      (pin p95704 96427 381 -63)
+      (pin p95704 96442 371 -63)
+      (pin p95704 96457 381 -53)
+      (pin p95704 96472 371 -53)
+      (pin p95704 96547 361 -213)
+      (pin p95704 96562 351 -213)
+      (pin p95704 96577 341 -213)
+      (pin p95704 96592 331 -213)
+      (pin p95704 96607 321 -213)
+      (pin p95704 96622 311 -213)
+      (pin p95704 96637 301 -213)
+      (pin p95704 96652 291 -213)
+      (pin p95704 96721 221 -213)
+      (pin p95704 96736 231 -213)
+      (pin p95704 96751 241 -213)
+      (pin p95704 96766 251 -213)
+      (pin p95704 96781 261 -213)
+      (pin p95704 96796 271 -213)
+      (pin p95704 96853 131 -213)
+      (pin p95704 96868 121 -213)
+      (pin p95704 96883 111 -213)
+      (pin p92617 96955 59.5 -192.5)
+      (pin p92617 96970 59.5 -162.5)
+      (pin p92617 96985 59.5 -152.5)
+      (pin p92617 97000 59.5 -182.5)
+      (pin p97015 97015 59.5 -172.5)
+      (pin p92617 97087 59.5 -91)
+      (pin p92617 97102 59.5 -61)
+      (pin p92617 97117 59.5 -51)
+      (pin p92617 97132 59.5 -81)
+      (pin p97015 97147 59.5 -71)
+      (pin p92617 97393 322 -181)
+      (pin p92617 97408 322 -171)
+      (pin p92617 97465 299 -172.5)
+      (pin p92617 97480 299 -182.5)
+      (pin p92617 97903 195.5 -112)
+      (pin p92617 97918 155.5 -112)
+      (pin p92617 97987 195.5 -121.5)
+      (pin p92617 98002 155.5 -121.5)
+      (pin p92617 98077 319.5 -131.5)
+      (pin p92617 98092 349.5 -131.5)
+      (pin p92617 98167 201 -40.5)
+      (pin p92617 98182 231 -40.5)
+      (pin p92617 98257 319.5 -141.5)
+      (pin p92617 98272 349.5 -141.5)
+      (pin p92617 98347 237.5 -121.5)
+      (pin p92617 98362 267.5 -121.5)
+      (pin p92617 98437 237.5 -111)
+      (pin p92617 98452 267.5 -111)
+      (pin p92617 98515 299 -229.5)
+      (pin p92617 98530 309 -229.5)
+      (pin p92617 98545 319 -229.5)
+      (pin p92602 98560 329 -229.5)
+      (pin p99037 99037 12.32 -219.5)
+      (pin p99037 99052 32 -219.5)
+      (pin p92617 99109 298.5 -150.5)
+      (pin p92617 99124 298.5 -140.5)
+      (pin p92617 99181 211 -121.5)
+      (pin p92617 99196 221 -121.5)
+      (pin p92617 99253 211 -111.5)
+      (pin p92617 99268 221 -111.5)
+      (pin p92812 101395 312.5 -108.5)
+      (pin p92617 101410 342.5 -98.5)
+      (pin p92617 101425 332.5 -98.5)
+      (pin p92617 101440 322.5 -98.5)
+      (pin p92617 101455 312.5 -98.5)
+      (pin p92617 101470 322.5 -108.5)
+      (pin p92617 101485 332.5 -108.5)
+      (pin p92617 101500 342.5 -108.5)
+      (pin p92617 106172 401.5 -35.311)
+      (pin p92617 106187 401.5 -23.5)
+      (pin p92617 106202 401.5 -11.689)
+      (pin p92617 107180 401.5 -225.311)
+      (pin p92617 107195 401.5 -213.5)
+      (pin p92617 107210 401.5 -201.689)
+      (pin p92617 109771 131 -64.5)
+      (pin p92617 109786 131 -84.5)
+      (pin p92812 109801 131 -94.5)
+      (pin p92617 109816 131 -104.5)
+      (pin p92617 109831 131 -114.5)
+      (pin p92617 109918 277.5 -194)
+      (pin p92617 109933 277.5 -184)
+      (pin p92617 109948 277.5 -174)
+      (pin p92617 109963 277.5 -164)
+      (pin p92617 109978 277.5 -154)
+      (pin p92617 110053 81 -200)
+      (pin p92617 110068 81 -180)
+      (pin p92692 110083 81 -170)
+      (pin p92617 110098 81 -160)
+      (pin p92617 110113 81 -150)
+      (pin p92617 94294 381 -23)
+      (pin p92617 94309 381 -33)
+      (pin p92617 94324 381 -43)
+      (pin p92617 94339 381 -53)
+      (pin p92617 94354 381 -63)
+      (pin p92617 94369 381 -73)
+      (pin p92617 94384 381 -83)
+      (pin p92617 94399 381 -93)
+      (pin p92617 94414 381 -103)
+      (pin p92617 94429 381 -113)
+      (pin p92617 94444 381 -123)
+      (pin p92617 94459 381 -133)
+      (pin p92617 94474 381 -143)
+      (pin p92617 94489 381 -153)
+      (pin p92617 94504 381 -163)
+      (pin p92617 94519 381 -173)
+      (pin p92617 94534 381 -183)
+      (pin p92602 94549 381 -193)
+      (pin p92602 94564 371 -193)
+      (pin p92617 94579 371 -183)
+      (pin p92617 94594 371 -173)
+      (pin p92617 94609 371 -163)
+      (pin p92617 94624 371 -153)
+      (pin p92617 94639 371 -143)
+      (pin p92617 94654 371 -133)
+      (pin p92617 94669 371 -123)
+      (pin p92617 94684 371 -113)
+      (pin p92617 94699 371 -103)
+      (pin p92617 94714 371 -93)
+      (pin p92617 94729 371 -83)
+      (pin p92617 94744 371 -73)
+      (pin p92617 94759 371 -63)
+      (pin p92617 94774 371 -53)
+      (pin p92617 94789 371 -43)
+      (pin p92617 94804 371 -33)
+      (pin p92617 94819 371 -23)
+      (pin p92617 94834 351 -213)
+      (pin p92617 94849 361 -213)
+      (pin p92617 94864 111 -213)
+      (pin p92617 94879 121 -213)
+      (pin p92617 94894 131 -213)
+      (pin p92617 94909 141 -213)
+      (pin p92617 94924 151 -213)
+      (pin p92602 94939 161 -213)
+      (pin p92602 94954 171 -213)
+      (pin p92617 94969 181 -213)
+      (pin p92617 94984 201 -213)
+      (pin p92617 94999 211 -213)
+      (pin p92617 95014 221 -213)
+      (pin p92617 95029 231 -213)
+      (pin p92617 95044 241 -213)
+      (pin p92617 95059 251 -213)
+      (pin p92617 95074 261 -213)
+      (pin p92617 95089 271 -213)
+      (pin p92617 95104 291 -213)
+      (pin p92617 95119 301 -213)
+      (pin p92617 95134 311 -213)
+      (pin p92617 95149 321 -213)
+      (pin p92617 95164 331 -213)
+      (pin p92617 95179 341 -213)
+      (pin p92617 95194 341 -23)
+      (pin p92617 95209 331 -23)
+      (pin p92617 95224 321 -23)
+      (pin p92617 95239 311 -23)
+      (pin p92617 95254 301 -23)
+      (pin p92617 95269 291 -23)
+      (pin p92617 95284 281 -23)
+      (pin p92617 95299 271 -23)
+      (pin p92617 95314 251 -23)
+      (pin p92617 95329 241 -23)
+      (pin p92617 95344 231 -23)
+      (pin p92617 95359 221 -23)
+      (pin p92617 95374 211 -23)
+      (pin p92617 95389 201 -23)
+      (pin p92617 95404 191 -23)
+      (pin p92617 95419 181 -23)
+      (pin p92617 95434 166 -23)
+      (pin p92617 95449 156 -23)
+      (pin p92617 95464 146 -23)
+      (pin p92617 95479 136 -23)
+      (pin p92617 95494 126 -23)
+      (pin p92617 95509 116 -23)
+      (pin p92602 95524 106 -23)
+      (pin p92617 95539 96 -23)
+      (pin p92617 95554 86 -23)
+      (pin p92617 95569 76 -23)
+      (pin p113153 113153 258.945 -110.598)
+      (pin p113153 113162 348.508 -31.214)
+      (pin p113153 113276 191.278 -204.115)
+      (pin p113153 113279 152.891 -99.031)
+      (pin p113153 113282 146.293 -99.031)
+      (pin p113153 113285 141.471 -61.325)
+      (pin p113153 113303 67.798 -168.303)
+      (pin p113153 113312 338.568 -33.736)
+      (pin p113153 113324 409.659 -153)
+      (pin p113153 113327 367.405 -212.419)
+      (pin p113153 113336 357.249 -90.118)
+      (pin p113153 113345 350.843 -38.041)
+      (pin p113153 113357 355.829 -81.5)
+      (pin p113153 113453 290.927 -172.5)
+      (pin p113153 113486 362.583 -120.705)
+      (pin p113153 113498 340.199 -130.587)
+      (pin p113153 113507 362.438 -108.5)
+      (pin p99970 99970 60 -23)
+      (pin p99970 99985 355 -23)
+      (pin p99970 100000 380 -213)
+      (pin p99970 100015 55 -213)
+      (pin p99970 100030 260 -83)
+      (pin p99970 100045 260 -193)
+    )
+
+    (padstack via0
+      (shape(circle 1 2.4))
+      (shape(circle 2 2.4))
+    )
+    (padstack via1
+      (shape(circle 1 12.5))
+      (shape(circle 2 12.5))
+    )
+
+    (padstack p92602
+      (shape(polygon 1 0.01 -4 4 4 4 4 -4 -4 -4))
+      (shape(polygon 2 0.01 -4 4 4 4 4 -4 -4 -4))
+    )
+    (padstack p92617
+      (shape(circle 1 8 0 0))
+      (shape(circle 2 8 0 0))
+    )
+    (padstack p92692
+      (shape(polygon 1 0.01 4 4 4 -4 -4 -4 -4 4))
+      (shape(polygon 2 0.01 4 4 4 -4 -4 -4 -4 4))
+    )
+    (padstack p92812
+      (shape(polygon 1 0.01 -4 -4 -4 4 4 4 4 -4))
+      (shape(polygon 2 0.01 -4 -4 -4 4 4 4 4 -4))
+    )
+    (padstack p95704
+      (shape(circle 1 6.2 0 0))
+      (shape(circle 2 6.2 0 0))
+    )
+    (padstack p95719
+      (shape(polygon 1 0.01 -3.1 3.1 3.1 3.1 3.1 -3.1 -3.1 -3.1))
+      (shape(polygon 2 0.01 -3.1 3.1 3.1 3.1 3.1 -3.1 -3.1 -3.1))
+    )
+    (padstack p95956
+      (shape(polygon 1 0.01 -3.1 -3.1 -3.1 3.1 3.1 3.1 3.1 -3.1))
+      (shape(polygon 2 0.01 -3.1 -3.1 -3.1 3.1 3.1 3.1 3.1 -3.1))
+    )
+    (padstack p97015
+      (shape(polygon 1 0.01 4 -4 -4 -4 -4 4 4 4))
+      (shape(polygon 2 0.01 4 -4 -4 -4 -4 4 4 4))
+    )
+    (padstack p99037
+      (shape(circle 1 14 0 0))
+      (shape(circle 2 14 0 0))
+    )
+    (padstack p113153
+      (shape(circle 1 2.4 0 0))
+      (shape(circle 2 2.4 0 0))
+    )
+    (padstack p99970
+      (shape(circle 1 12.5 0 0))
+      (shape(circle 2 12.5 0 0))
+    )
+  )
+  (network
+    (net W1_220_2
+      (pins u1-98362 u1-94309 u1-113153)
+    )
+    (net C_VIN
+      (pins u1-106187 u1-94969 u1-113162)
+    )
+    (net AIRPRESS1_1
+      (pins u1-92632 u1-94984 u1-113276 u1-113279 u1-113282 u1-113285)
+    )
+    (net R1_2_2
+      (pins u1-96985 u1-97117 u1-97918 u1-109771 u1-110053 u1-113303)
+    )
+    (net W2_220_2
+      (pins u1-98452 u1-94804 u1-113312)
+    )
+    (net C_47
+      (pins u1-99124 u1-94489 u1-113324 u1-113327)
+    )
+    (net C_51
+      (pins u1-101425 u1-94519 u1-113336)
+    )
+    (net T2R_220_1
+      (pins u1-98257 u1-95239 u1-113345)
+    )
+    (net ESC1_2
+      (pins u1-92707 u1-107180 u1-113357)
+    )
+    (net SR04_3
+      (pins u1-98545 u1-99109 u1-113453)
+    )
+    (net C_52
+      (pins u1-101485 u1-94579 u1-113486)
+    )
+    (net C_48
+      (pins u1-101440 u1-94609 u1-113498)
+    )
+    (net C_50
+      (pins u1-101500 u1-94594 u1-113507)
+    )
+    (net WING_LED1_1
+      (pins u1-98347 u1-99181)
+    )
+    (net R2T_220_2
+      (pins u1-98092 u1-109933)
+    )
+    (net GPS_TX2RX_1
+      (pins u1-97465 u1-98272)
+    )
+    (net R2_2_1
+      (pins u1-97987 u1-95194)
+    )
+    (net SRV1_3
+      (pins u1-92872 u1-95464)
+    )
+    (net G0_1
+      (pins u1-95638 u1-96955 u1-97087 u1-101455 u1-109831 u1-109978 u1-110113 u1-94909)
+    )
+    (net R1_2_1
+      (pins u1-97903 u1-95209)
+    )
+    (net R2_2_2
+      (pins u1-96970 u1-97102 u1-98002 u1-109786 u1-110068)
+    )
+    (net SRV9_3
+      (pins u1-93592 u1-95344)
+    )
+    (net SRV8_3
+      (pins u1-93502 u1-95359)
+    )
+    (net SRV7_3
+      (pins u1-93412 u1-95374)
+    )
+    (net SRV6_3
+      (pins u1-93322 u1-95389)
+    )
+    (net SRV5_3
+      (pins u1-93232 u1-95404)
+    )
+    (net SRV4_3
+      (pins u1-93142 u1-95419)
+    )
+    (net SRV3_3
+      (pins u1-93052 u1-95434)
+    )
+    (net SRV2_3
+      (pins u1-92962 u1-95449)
+    )
+    (net SRV0_3
+      (pins u1-92782 u1-95479)
+    )
+    (net AIRPRESS1_2
+      (pins u1-92617 u1-92797 u1-92887 u1-92977 u1-93067 u1-93157 u1-93247 u1-93337 u1-93427 u1-93517 u1-93607 u1-98515 u1-94924)
+    )
+    (net U1_2
+      (pins u1-106172 u1-107195)
+    )
+    (net GPS_RX2TX_2
+      (pins u1-97408 u1-95224)
+    )
+    (net AIRPRESS1_3
+      (pins u1-92602 u1-92692 u1-92812 u1-92902 u1-92992 u1-93082 u1-93172 u1-93262 u1-93352 u1-93442 u1-93532 u1-93622 u1-93661 u1-95623 u1-97015 u1-97147 u1-98560 u1-99037 u1-99196 u1-99268 u1-101395 u1-109801 u1-109963 u1-110083 u1-94939)
+    )
+    (net SR04_2
+      (pins u1-98530 u1-94504)
+    )
+    (net C_46
+      (pins u1-101470 u1-94624)
+    )
+    (net U5_2
+      (pins u1-99052 u1-107210)
+    )
+    (net WING_LED2_1
+      (pins u1-98437 u1-99253)
+    )
+    (net RB_100_2
+      (pins u1-98182 u1-94789)
+    )
+    (net GPS_TX2RX_2
+      (pins u1-97480 u1-109948)
+    )
+    (net RB_100_1
+      (pins u1-93676 u1-98167)
+    )
+    (net ESC1_1
+      (pins u1-92722 u1-95494)
+    )
+    (net GPS_RX2TX_1
+      (pins u1-97393 u1-98077)
+    )
+    (net F1_1_5
+      (pins u1-95704 u1-95509)
+    )
+    (net F1_1_4
+      (pins u1-95719 u1-95524)
+    )
+    (net F1_1_3
+      (pins u1-95734 u1-95539)
+    )
+    (net F1_1_2
+      (pins u1-95749 u1-95554)
+    )
+    (net F1_1_1
+      (pins u1-95764 u1-95569)
+    )
+    (net F1_2_1
+      (pins u1-95818 u1-95329)
+    )
+    (net F1_2_2
+      (pins u1-95833 u1-95314)
+    )
+    (net C_5V.
+      (pins u1-95887 u1-94819)
+    )
+    (net C_5V..
+      (pins u1-95902 u1-94294)
+    )
+    (net F2_4_1
+      (pins u1-95956 u1-94549)
+    )
+    (net F2_4_2
+      (pins u1-95971 u1-94564)
+    )
+    (net F1_3_1
+      (pins u1-96034 u1-95299)
+    )
+    (net F1_3_2
+      (pins u1-96049 u1-95284)
+    )
+    (net F1_3_3
+      (pins u1-96064 u1-95269)
+    )
+    (net F1_3_4
+      (pins u1-96079 u1-95254)
+    )
+    (net F2_2_20
+      (pins u1-96187 u1-94474)
+    )
+    (net F2_2_19
+      (pins u1-96202 u1-94639)
+    )
+    (net F2_2_18
+      (pins u1-96217 u1-94459)
+    )
+    (net F2_2_17
+      (pins u1-96232 u1-94654)
+    )
+    (net F2_2_16
+      (pins u1-96247 u1-94444)
+    )
+    (net F2_2_15
+      (pins u1-96262 u1-94669)
+    )
+    (net F2_2_14
+      (pins u1-96277 u1-94429)
+    )
+    (net F2_2_13
+      (pins u1-96292 u1-94684)
+    )
+    (net F2_2_12
+      (pins u1-96307 u1-94414)
+    )
+    (net F2_2_11
+      (pins u1-96322 u1-94699)
+    )
+    (net F2_2_10
+      (pins u1-96337 u1-94399)
+    )
+    (net F2_2_9
+      (pins u1-96352 u1-94714)
+    )
+    (net F2_2_8
+      (pins u1-96367 u1-94384)
+    )
+    (net F2_2_7
+      (pins u1-96382 u1-94729)
+    )
+    (net F2_2_6
+      (pins u1-96397 u1-94369)
+    )
+    (net F2_2_5
+      (pins u1-96412 u1-94744)
+    )
+    (net F2_2_4
+      (pins u1-96427 u1-94354)
+    )
+    (net F2_2_3
+      (pins u1-96442 u1-94759)
+    )
+    (net F2_2_2
+      (pins u1-96457 u1-94339)
+    )
+    (net F2_2_1
+      (pins u1-96472 u1-94774)
+    )
+    (net F3_1_1
+      (pins u1-96547 u1-94849)
+    )
+    (net F3_1_2
+      (pins u1-96562 u1-94834)
+    )
+    (net F3_1_3
+      (pins u1-96577 u1-95179)
+    )
+    (net F3_1_4
+      (pins u1-96592 u1-95164)
+    )
+    (net F3_1_5
+      (pins u1-96607 u1-95149)
+    )
+    (net F3_1_6
+      (pins u1-96622 u1-95134)
+    )
+    (net F3_1_7
+      (pins u1-96637 u1-95119)
+    )
+    (net F3_1_8
+      (pins u1-96652 u1-95104)
+    )
+    (net F3_2_6
+      (pins u1-96721 u1-95014)
+    )
+    (net F3_2_5
+      (pins u1-96736 u1-95029)
+    )
+    (net F3_2_4
+      (pins u1-96751 u1-95044)
+    )
+    (net F3_2_3
+      (pins u1-96766 u1-95059)
+    )
+    (net F3_2_2
+      (pins u1-96781 u1-95074)
+    )
+    (net F3_2_1
+      (pins u1-96796 u1-95089)
+    )
+    (net F3_3_1
+      (pins u1-96853 u1-94894)
+    )
+    (net F3_3_2
+      (pins u1-96868 u1-94879)
+    )
+    (net F3_3_3
+      (pins u1-96883 u1-94864)
+    )
+    (net G0_2
+      (pins u1-97000)
+    )
+    (net G1_2
+      (pins u1-97132)
+    )
+    (net TELEMETRY_8
+      (pins u1-101410)
+    )
+    (net U2_3
+      (pins u1-106202)
+    )
+    (net P1_2
+      (pins u1-109816)
+    )
+    (net GPS_4
+      (pins u1-109918)
+    )
+    (net P0_2
+      (pins u1-110098)
+    )
+    (net C_25
+      (pins u1-94324)
+    )
+    (net C_53
+      (pins u1-94534)
+    )
+    (net C_GND.
+      (pins u1-94954)
+    )
+    (net C_A1
+      (pins u1-94999)
+    )
+    (class W1_220_2 W1_220_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_VIN C_VIN
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class AIRPRESS1_1 AIRPRESS1_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class R1_2_2 R1_2_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class W2_220_2 W2_220_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_47 C_47
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_51 C_51
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class T2R_220_1 T2R_220_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class ESC1_2 ESC1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SR04_3 SR04_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_52 C_52
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_48 C_48
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_50 C_50
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class WING_LED1_1 WING_LED1_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class R2T_220_2 R2T_220_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GPS_TX2RX_1 GPS_TX2RX_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class R2_2_1 R2_2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV1_3 SRV1_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class G0_1 G0_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class R1_2_1 R1_2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class R2_2_2 R2_2_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV9_3 SRV9_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV8_3 SRV8_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV7_3 SRV7_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV6_3 SRV6_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV5_3 SRV5_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV4_3 SRV4_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV3_3 SRV3_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV2_3 SRV2_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SRV0_3 SRV0_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class AIRPRESS1_2 AIRPRESS1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_2 U1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GPS_RX2TX_2 GPS_RX2TX_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class AIRPRESS1_3 AIRPRESS1_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class SR04_2 SR04_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_46 C_46
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U5_2 U5_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class WING_LED2_1 WING_LED2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class RB_100_2 RB_100_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GPS_TX2RX_2 GPS_TX2RX_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class RB_100_1 RB_100_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class ESC1_1 ESC1_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GPS_RX2TX_1 GPS_RX2TX_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_1_5 F1_1_5
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_1_4 F1_1_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_1_3 F1_1_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_1_2 F1_1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_1_1 F1_1_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_2_1 F1_2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_2_2 F1_2_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_5V. C_5V.
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_5V.. C_5V..
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_4_1 F2_4_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_4_2 F2_4_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_3_1 F1_3_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_3_2 F1_3_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_3_3 F1_3_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F1_3_4 F1_3_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_20 F2_2_20
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_19 F2_2_19
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_18 F2_2_18
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_17 F2_2_17
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_16 F2_2_16
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_15 F2_2_15
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_14 F2_2_14
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_13 F2_2_13
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_12 F2_2_12
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_11 F2_2_11
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_10 F2_2_10
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_9 F2_2_9
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_8 F2_2_8
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_7 F2_2_7
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_6 F2_2_6
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_5 F2_2_5
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_4 F2_2_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_3 F2_2_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_2 F2_2_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F2_2_1 F2_2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_1 F3_1_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_2 F3_1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_3 F3_1_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_4 F3_1_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_5 F3_1_5
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_6 F3_1_6
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_7 F3_1_7
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_1_8 F3_1_8
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_2_6 F3_2_6
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_2_5 F3_2_5
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_2_4 F3_2_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_2_3 F3_2_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_2_2 F3_2_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_2_1 F3_2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_3_1 F3_3_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_3_2 F3_3_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class F3_3_3 F3_3_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class G0_2 G0_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class G1_2 G1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class TELEMETRY_8 TELEMETRY_8
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U2_3 U2_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class P1_2 P1_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class GPS_4 GPS_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class P0_2 P0_2
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_25 C_25
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_53 C_53
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_GND. C_GND.
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class C_A1 C_A1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+
+  )
+
+   (wiring
+    (wire(path 2 1 211 -121.5 216.662 -127.162 231.838 -127.162 237.5 -121.5 )
+      (net WING_LED1_1)
+      (type protect)
+    )
+    (wire(path 2 1 277.5 -184 277.5 -182.665 293.125 -167.04 302.186 -167.04 336.332 -132.894 341.155 -132.894 342.548 -131.501 342.548 -131.5 349.5 -131.5 )
+      (net R2T_220_2)
+      (type protect)
+    )
+    (wire(path 2 1 299 -172.5 330 -141.5 349.5 -141.5 )
+      (net GPS_TX2RX_1)
+      (type protect)
+    )
+    (wire(path 2 1 371 -173 365.332 -167.332 365.332 -111.394 362.438 -108.5 )
+      (net C_50)
+      (type protect)
+    )
+    (wire(path 2 1 340.199 -130.587 347.801 -122.985 347.801 -96.302 344.863 -93.364 327.636 -93.364 322.5 -98.5 )
+      (net C_48)
+      (type protect)
+    )
+    (wire(path 2 1 341 -23 341 -44.724 269.474 -116.25 258.754 -116.25 244.44 -130.564 204.564 -130.564 195.5 -121.5 )
+      (net R2_2_1)
+      (type protect)
+    )
+    (wire(path 2 1 371 -183 362.583 -174.583 362.583 -120.705 )
+      (net C_52)
+      (type protect)
+    )
+    (wire(path 2 1 165 -71.5 146 -52.5 146 -23 )
+      (net SRV1_3)
+      (type protect)
+    )
+    (wire(path 2 1 277.5 -154 277.5 -119 295 -101.5 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 2 1 131 -114.5 116.5 -114.5 81 -150 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 2 1 141 -213 141 -124.5 131 -114.5 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 2 1 290.927 -172.5 285.543 -177.884 285.543 -215.401 292.392 -222.25 311.75 -222.25 319 -229.5 )
+      (net SR04_3)
+      (type protect)
+    )
+    (wire(path 2 1 195.5 -112 195.5 -114.276 210.181 -128.957 241.753 -128.957 257.805 -112.905 259.901 -112.905 261.252 -111.554 261.252 -109.458 267.383 -103.327 272.821 -103.327 331 -45.148 331 -23 )
+      (net R1_2_1)
+      (type protect)
+    )
+    (wire(path 2 1 59.5 -61 64.817 -66.317 64.817 -162.5 )
+      (net R2_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 81 -180 70.105 -169.105 70.105 -167.347 65.258 -162.5 64.817 -162.5 )
+      (net R2_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 64.817 -162.5 59.5 -162.5 )
+      (net R2_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 155.5 -121.5 139.266 -105.266 139.266 -92.766 131 -84.5 )
+      (net R2_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 245 -71.5 245 -37 231 -23 )
+      (net SRV9_3)
+      (type protect)
+    )
+    (wire(path 2 1 235 -71.5 235 -57.096 221 -43.096 221 -23 )
+      (net SRV8_3)
+      (type protect)
+    )
+    (wire(path 2 1 225 -71.5 216.989 -63.489 202.333 -63.489 198.896 -60.052 198.896 -55.201 211 -43.097 211 -23 )
+      (net SRV7_3)
+      (type protect)
+    )
+    (wire(path 2 1 201 -23 195.808 -28.192 195.808 -60.034 200.951 -65.177 208.677 -65.177 215 -71.5 )
+      (net SRV6_3)
+      (type protect)
+    )
+    (wire(path 2 1 205 -71.5 191 -57.5 191 -23 )
+      (net SRV5_3)
+      (type protect)
+    )
+    (wire(path 2 1 195 -71.5 185.892 -62.392 185.892 -27.892 181 -23 )
+      (net SRV4_3)
+      (type protect)
+    )
+    (wire(path 2 1 185 -71.5 166 -52.5 166 -23 )
+      (net SRV3_3)
+      (type protect)
+    )
+    (wire(path 2 1 175 -71.5 160.892 -57.392 160.892 -27.892 156 -23 )
+      (net SRV2_3)
+      (type protect)
+    )
+    (wire(path 2 1 155 -71.5 136 -52.5 136 -23 )
+      (net SRV0_3)
+      (type protect)
+    )
+    (wire(path 2 1 155 -81.5 149.719 -86.781 149.719 -100.08 151.15 -101.511 152.379 -101.511 160.694 -109.826 160.694 -203.306 151 -213 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 2 1 401.5 -213.5 407.3 -207.7 407.3 -41.111 401.5 -35.311 )
+      (net U1_2)
+      (type protect)
+    )
+    (wire(path 2 1 401.5 -225.311 401.5 -223.965 375.702 -198.167 366.581 -198.167 359.958 -191.544 359.958 -85.629 355.829 -81.5 )
+      (net ESC1_2)
+      (type protect)
+    )
+    (wire(path 2 1 321 -23 326.318 -17.682 343.289 -17.682 346.722 -21.115 346.722 -26.165 353.381 -32.824 353.381 -120.119 354.615 -121.353 354.615 -143.695 327.31 -171 322 -171 )
+      (net GPS_RX2TX_2)
+      (type protect)
+    )
+    (wire(path 2 1 319.5 -141.5 306.937 -128.937 306.937 -84.129 350.843 -40.223 350.843 -38.041 )
+      (net T2R_220_1)
+      (type protect)
+    )
+    (wire(path 2 1 381 -173 386.475 -178.475 386.475 -205.764 400.117 -219.406 402.824 -219.406 407.332 -223.914 407.332 -227.342 403.93 -230.744 387.339 -230.744 369.712 -213.117 369.712 -211.463 357.249 -199 357.249 -90.118 )
+      (net C_51)
+      (type protect)
+    )
+    (wire(path 2 1 367.405 -212.419 367.405 -213.398 386.518 -232.511 405.111 -232.511 409.659 -227.963 409.659 -153 )
+      (net C_47)
+      (type protect)
+    )
+    (wire(path 2 1 267.5 -111 338.568 -39.932 338.568 -33.736 )
+      (net W2_220_2)
+      (type protect)
+    )
+    (wire(path 2 1 59.5 -51 54.129 -56.371 54.129 -147.129 59.5 -152.5 )
+      (net R1_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 67.798 -168.303 67.798 -186.798 81 -200 )
+      (net R1_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 131 -64.5 140.874 -74.374 140.874 -97.374 155.5 -112 )
+      (net R1_2_2)
+      (type protect)
+    )
+    (wire(path 2 1 191.278 -204.115 191.278 -137.418 152.891 -99.031 )
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (wire(path 2 1 146.293 -99.031 146.293 -66.147 141.471 -61.325 )
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (wire(path 2 1 221 -111.5 221 -121.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 295 -111.5 284.285 -122.215 284.285 -157.215 277.5 -164 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 81 -170 75.892 -164.892 75.892 -144.507 125.899 -94.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 131 -94.5 125.899 -94.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 225 -91.5 225 -107.5 221 -111.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 329 -229.5 323.208 -235.292 297.204 -235.292 283.935 -222.023 283.935 -213.833 271.913 -201.811 271.913 -169.587 277.5 -164 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 54.399 -172.5 54.399 -177.421 12.32 -219.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 59.5 -172.5 54.399 -172.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 2 1 181 -213 185.656 -213 274.818 -123.838 274.818 -113.18 348.508 -39.49 348.508 -31.214 )
+      (net C_VIN)
+      (type protect)
+    )
+    (wire(path 2 1 381 -33 383.797 -30.203 402.121 -30.203 406.768 -25.556 406.768 -21.539 402.824 -17.595 369.24 -17.595 366.727 -15.082 271.675 -15.082 252.334 -34.423 252.334 -103.987 258.945 -110.598 )
+      (net W1_220_2)
+      (type protect)
+    )
+    (wire(path 1 1 309 -229.5 317.582 -220.918 362.169 -220.918 369.712 -213.375 369.712 -212.225 383.486 -198.451 385.745 -198.451 386.498 -197.698 386.498 -168.498 381 -163 )
+      (net SR04_2)
+      (type protect)
+    )
+    (wire(path 1 1 322.5 -108.5 336.384 -122.384 348.169 -122.384 359.846 -134.061 359.846 -141.846 371 -153 )
+      (net C_46)
+      (type protect)
+    )
+    (wire(path 1 1 401.5 -201.689 401.5 -202.502 369.233 -234.769 47.269 -234.769 32 -219.5 )
+      (net U5_2)
+      (type protect)
+    )
+    (wire(path 1 1 211 -111.5 216.134 -106.366 232.866 -106.366 237.5 -111 )
+      (net WING_LED2_1)
+      (type protect)
+    )
+    (wire(path 1 1 231 -40.5 368.5 -40.5 371 -43 )
+      (net RB_100_2)
+      (type protect)
+    )
+    (wire(path 1 1 277.5 -174 286 -182.5 299 -182.5 )
+      (net GPS_TX2RX_2)
+      (type protect)
+    )
+    (wire(path 1 1 201 -40.5 179.795 -40.5 )
+      (net RB_100_1)
+      (type protect)
+    )
+    (wire(path 1 1 275 -71.5 250.449 -46.949 172.726 -46.949 158.123 -32.346 135.346 -32.346 126 -23 )
+      (net ESC1_1)
+      (type protect)
+    )
+    (wire(path 1 1 342.5 -108.5 362.438 -108.5 )
+      (net C_50)
+      (type protect)
+    )
+    (wire(path 1 1 371 -163 363.749 -163 340.199 -139.45 340.199 -130.587 )
+      (net C_48)
+      (type protect)
+    )
+    (wire(path 1 1 332.5 -108.5 344.705 -120.705 362.583 -120.705 )
+      (net C_52)
+      (type protect)
+    )
+    (wire(path 1 1 312.5 -98.5 298 -98.5 295 -101.5 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 1 1 59.5 -91 83 -114.5 131 -114.5 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 1 1 59.5 -192.5 120.5 -192.5 141 -213 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 1 1 277.5 -154 170.5 -154 131 -114.5 )
+      (net G0_1)
+      (type protect)
+    )
+    (wire(path 1 1 298.5 -150.5 290.927 -158.073 290.927 -172.5 )
+      (net SR04_3)
+      (type protect)
+    )
+    (wire(path 1 1 319.5 -131.5 313.901 -137.099 313.901 -172.901 322 -181 )
+      (net GPS_RX2TX_1)
+      (type protect)
+    )
+    (wire(path 1 1 131 -84.5 83 -84.5 59.5 -61 )
+      (net R2_2_2)
+      (type protect)
+    )
+    (wire(path 1 1 299 -229.5 167.5 -229.5 151 -213 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 235 -81.5 225 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 225 -81.5 215 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 215 -81.5 205 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 205 -81.5 195 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 195 -81.5 185 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 185 -81.5 175 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 175 -81.5 165 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 165 -81.5 155 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 235 -81.5 245 -81.5 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 245 -81.5 250.117 -76.383 250.117 -68.696 245.663 -64.242 220.742 -64.242 214.5 -58 )
+      (net AIRPRESS1_2)
+      (type protect)
+    )
+    (wire(path 1 1 275 -81.5 355.829 -81.5 )
+      (net ESC1_2)
+      (type protect)
+    )
+    (wire(path 1 1 350.843 -38.041 326.041 -38.041 311 -23 )
+      (net T2R_220_1)
+      (type protect)
+    )
+    (wire(path 1 1 332.5 -98.5 340.882 -90.118 357.249 -90.118 )
+      (net C_51)
+      (type protect)
+    )
+    (wire(path 1 1 298.5 -140.5 307.496 -149.496 307.496 -174.107 339.768 -206.379 362.121 -206.379 367.405 -211.663 367.405 -212.419 )
+      (net C_47)
+      (type protect)
+    )
+    (wire(path 1 1 381 -153 409.659 -153 )
+      (net C_47)
+      (type protect)
+    )
+    (wire(path 1 1 371 -33 370.264 -33.736 338.568 -33.736 )
+      (net W2_220_2)
+      (type protect)
+    )
+    (wire(path 1 1 131 -64.5 117.5 -51 59.5 -51 )
+      (net R1_2_2)
+      (type protect)
+    )
+    (wire(path 1 1 59.5 -152.5 67.798 -160.798 67.798 -168.303 )
+      (net R1_2_2)
+      (type protect)
+    )
+    (wire(path 1 1 191.278 -204.115 192.115 -204.115 201 -213 )
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (wire(path 1 1 146.293 -99.031 152.891 -99.031 )
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (wire(path 1 1 204.5 -58 144.796 -58 141.471 -61.325 )
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (wire(path 1 1 59.5 -172.5 64.601 -172.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 59.5 -71 64.601 -71 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 64.601 -172.5 73.399 -172.5 75.899 -170 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 81 -170 75.899 -170 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 312.5 -108.5 298 -108.5 295 -111.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 295 -111.5 280.101 -96.601 280.101 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 275 -91.5 280.101 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 154.205 -40.5 159.306 -40.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 235 -91.5 225 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 225 -91.5 215 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 215 -91.5 205 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 205 -91.5 195 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 195 -91.5 185 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 185 -91.5 175 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 175 -91.5 165 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 235 -91.5 245 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 245 -91.5 275 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 159.306 -40.5 171.228 -52.422 218.922 -52.422 224.5 -58 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 224.5 -58 242.227 -58 252.008 -67.781 252.008 -84.492 245 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 161 -213 118 -170 81 -170 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 64.601 -71 88.101 -94.5 131 -94.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 165 -91.5 155 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 131 -94.5 146.899 -94.5 149.899 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 155 -91.5 149.899 -91.5 )
+      (net AIRPRESS1_3)
+      (type protect)
+    )
+    (wire(path 1 1 401.5 -23.5 395.704 -17.704 368.576 -17.704 364.592 -21.688 364.592 -23.857 357.235 -31.214 348.508 -31.214 )
+      (net C_VIN)
+      (type protect)
+    )
+    (wire(path 1 1 258.945 -110.598 258.945 -112.945 267.5 -121.5 )
+      (net W1_220_2)
+      (type protect)
+    )
+    (via via0 258.945 -110.598
+      (net W1_220_2)
+      (type protect)
+    )
+    (via via0 348.508 -31.214
+      (net C_VIN)
+      (type protect)
+    )
+    (via via0 191.278 -204.115
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (via via0 152.891 -99.031
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (via via0 146.293 -99.031
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (via via0 141.471 -61.325
+      (net AIRPRESS1_1)
+      (type protect)
+    )
+    (via via0 67.798 -168.303
+      (net R1_2_2)
+      (type protect)
+    )
+    (via via0 338.568 -33.736
+      (net W2_220_2)
+      (type protect)
+    )
+    (via via0 409.659 -153
+      (net C_47)
+      (type protect)
+    )
+    (via via0 367.405 -212.419
+      (net C_47)
+      (type protect)
+    )
+    (via via0 357.249 -90.118
+      (net C_51)
+      (type protect)
+    )
+    (via via0 350.843 -38.041
+      (net T2R_220_1)
+      (type protect)
+    )
+    (via via0 355.829 -81.5
+      (net ESC1_2)
+      (type protect)
+    )
+    (via via0 290.927 -172.5
+      (net SR04_3)
+      (type protect)
+    )
+    (via via0 362.583 -120.705
+      (net C_52)
+      (type protect)
+    )
+    (via via0 340.199 -130.587
+      (net C_48)
+      (type protect)
+    )
+    (via via0 362.438 -108.5
+      (net C_50)
+      (type protect)
+    )
+    )
+
+)
