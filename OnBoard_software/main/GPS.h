@@ -27,7 +27,7 @@ void setGPS() {
     // Request updates on antenna status, comment out to keep quiet
     GPS.sendCommand(PGCMD_ANTENNA);
 
-    delay(100);
+    delay(1000);
 
     // Ask for firmware version
     GPS.println(PMTK_Q_RELEASE);

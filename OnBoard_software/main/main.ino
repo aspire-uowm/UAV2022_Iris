@@ -1,14 +1,17 @@
 #include <NewPing.h>
+#include <SPI.h>
+#include <nRF24L01.h>
+#include <RF24.h>
 
 #include "BMP.h"
 #include "GPS.h"
 #include "LSM.h"
 
-#define TRIGGER_PIN  47  // Arduino pin tied to trigger pin on the ultrasonic sensor.
-#define ECHO_PIN     49  // Arduino pin tied to echo pin on the ultrasonic sensor.
+#define TRIGGER_PIN  24  // Arduino pin tied to trigger pin on the ultrasonic sensor.
+#define ECHO_PIN     22  // Arduino pin tied to echo pin on the ultrasonic sensor.
 #define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
 
-#define AIR_PRESS A5
+#define AIR_PRESS A2
 
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
 
@@ -16,12 +19,19 @@ uint32_t timer = millis();
 
 long duration, distance;
 
+RF24 radio(46, 48); // CE, CSN
+
 void setup() {
     Serial.begin(115200);
 
     setBMP();
     setLSM();
-    //setGPS();
+    setGPS();
+
+    radio.begin();
+    radio.openWritingPipe(address);
+    radio.setPALevel(RF24_PA_MIN);
+    radio.stopListening();
 }
 
 void loop() {
@@ -43,53 +53,51 @@ void loop() {
     }
 
 
-    if (millis() - timer > 200) {
+    if (millis() - timer > 2000) {
         timer = millis();           // reset timer
         // ================ BMP ============
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 1; i++) {
             if (!bmp[i].performReading())
                 Serial.println("Failed to perform reading from BMP: " + String(i) + " :(");
         }
 
-        Serial.print("Temperature Diff: " + 
-            String((float)bmp[0].temperature - (float)bmp[1].temperature) 
-        + '\n');
-        Serial.print("Pressure Diff: " + 
-            String((float)bmp[0].pressure / 100.0 - (float)bmp[1].pressure / 100.0) 
-        + '\n');
-        Serial.print("Altitude Diff: " + 
-            String(bmp[0].readAltitude(SEALEVELPRESSURE_HPA) - bmp[1].readAltitude(SEALEVELPRESSURE_HPA)) 
-        + "\n\n");
+        Serial.print("Temperature : " + String((float)bmp[0].temperature) + '\n');
+        Serial.print("Pressure : " + String((float)bmp[0].pressure / 100.0) + '\n');
+        Serial.print("Altitude : " + String(bmp[0].readAltitude(SEALEVELPRESSURE_HPA)) + "\n\n");
+        
+
         
         // ========= LSM ==================
-        lsm[0].read(); /* ask it to read in the data */
+        lsm[0].read(); // ask it to read in the data
 
-        sensors_event_t a1, m1, g1, temp1; /* Get a new sensor event */
+        sensors_event_t a1, m1, g1, temp1; // Get a new sensor event
 
         lsm[0].getEvent(&a1, &m1, &g1, &temp1);
 
-        lsm[1].read(); /* ask it to read in the data */
+        //lsm[1].read(); // ask it to read in the data
 
-        sensors_event_t a2, m2, g2, temp2; /* Get a new sensor event */
+        //sensors_event_t a2, m2, g2, temp2; // Get a new sensor event
 
-        lsm[1].getEvent(&a2, &m2, &g2, &temp2);
+        //lsm[1].getEvent(&a2, &m2, &g2, &temp2);
 
 
-        String acc = "ACC diff-> x: " + String(a1.acceleration.x - a2.acceleration.x)
-                    + ", y: " + String(a1.acceleration.y - a2.acceleration.y)
-                    + ", z: " + String(a1.acceleration.z - a2.acceleration.z) + '\n'
+        String acc = "ACC -> x: " + String(a1.acceleration.x)
+                    + ", y: " + String(a1.acceleration.y)
+                    + ", z: " + String(a1.acceleration.z) + '\n'
         ; Serial.print(acc);
 
-        String mag = "MAG diff-> x: " + String(m1.magnetic.x - m2.magnetic.x)
-                    + ", y: " + String(m1.magnetic.y - m2.magnetic.y)
-                    + ", z: " + String(m1.magnetic.z - m2.magnetic.z) + '\n'
+        String mag = "MAG -> x: " + String(m1.magnetic.x)
+                    + ", y: " + String(m1.magnetic.y)
+                    + ", z: " + String(m1.magnetic.z) + '\n'
         ; Serial.print(mag);
 
-        String gyr = "GYRO diff-> x: " + String(g1.gyro.x - g2.gyro.x)
-                    + ", y: " + String(g1.gyro.y - g2.gyro.y)
-                    + ", z: " + String(g1.gyro.z - g2.gyro.z) + "\n\n"
+        String gyr = "GYRO -> x: " + String(g1.gyro.x)
+                    + ", y: " + String(g1.gyro.y)
+                    + ", z: " + String(g1.gyro.z) + "\n\n"
         ; Serial.print(gyr);
+        
 
+        
         // ============= GPS =============================
         Serial.print("\nTime: ");
         
@@ -137,5 +145,9 @@ void loop() {
         // Get Air pressure value
         int diffAirPress = analogRead(AIR_PRESS);
         Serial.print("Diff Air Pressure: " + String(diffAirPress) + "\n\n");
+
+
+        const char text[] = "Hello World";
+        radio.write(&text, sizeof(text));
     }
 }

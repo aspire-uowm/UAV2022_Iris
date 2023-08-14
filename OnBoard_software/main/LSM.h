@@ -4,14 +4,14 @@
 #include <Adafruit_Sensor.h>  // not used in this demo but required!
 #include <Adafruit_LSM9DS1.h>
 
-Adafruit_LSM9DS1 lsm[2] = { Adafruit_LSM9DS1(), Adafruit_LSM9DS1() };
+Adafruit_LSM9DS1 lsm[1] = { Adafruit_LSM9DS1()/*, Adafruit_LSM9DS1() */};
 
 void setLSM() {
 
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 1; i++) {
 
         if (lsm[i].begin()) Serial.println("Found LSM: " + String(i));
-        else setLSM();
+        else {Serial.print("LSM not found \n") ; setLSM();}
 
         // Set the accelerometer range
         lsm[i].setupAccel(lsm[i].LSM9DS1_ACCELRANGE_2G);
