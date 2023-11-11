@@ -71,7 +71,7 @@ func setupRouter() *gin.Engine {
 func main() {
 	r := setupRouter()
 
-	err := rpio.Open()
+	rpio.Open()
 	rpio.Close()
 
 	// Listen and Server in 0.0.0.0:8080
