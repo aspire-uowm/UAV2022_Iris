@@ -1,8 +1,7 @@
-package aspire.iris.base
+package main
 
 import (
 	"net/http"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
