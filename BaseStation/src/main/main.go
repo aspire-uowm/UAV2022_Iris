@@ -6,15 +6,20 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
+	"os/exec"
 	"syscall"
 	"time"
 
 	"github.com/gin-gonic/gin"
 )
 
-func fetchAltitude() []string {
-	data := []string{"48", "50", "49"}
-	return data
+func fetchData(prj string = "./nrf24l01", args string = " -e receive") []string {
+
+	out, err := exec.Command(prj, args).Output()
+
+	if err != nil {fmt.Printf("%s", err)}
+
+	return out
 }
 
 func main() {
